@@ -8,11 +8,16 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
-	"picker_window_position_offset.74AD8FDB" = "832;-13.5;320;550"
+	"picker_window_position_offset.74AD8FDB" = "832;-13;320;550"
 	"picker_search_text.74AD8FDB" = "defaul "
 	"last_search.74AD8FDB" = "defaul "
 	"OpenInspectorPreview.74AD8FDB" = "0"
 	"currentGroup.74AD8FDB" = null
+	"picker_window_position_offset.3172962C" = "455;-61.5;320;550"
+	"picker_search_text.3172962C" = ""
+	"last_search.3172962C" = ""
+	"OpenInspectorPreview.3172962C" = "0"
+	"currentGroup.3172962C" = null
 }
 providers = {
 	performance = {
