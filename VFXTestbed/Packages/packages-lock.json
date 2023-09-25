@@ -24,6 +24,15 @@
         "com.sonosthesia.utils": "1.0.2"
       }
     },
+    "com.sonosthesia.builder": {
+      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.builder",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.splines": "2.2.1",
+        "com.sonosthesia.utils": "1.0.2"
+      }
+    },
     "com.sonosthesia.flow": {
       "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.flow",
       "depth": 0,
@@ -119,6 +128,15 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.recorder": {
+      "version": "4.0.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.timeline": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
