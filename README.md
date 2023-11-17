@@ -22,4 +22,5 @@ NOTE : on the first Unity editor play the audio and the graphics are out of sync
 
 This scene extends a VFX sketch by Keijiro, adding multiple emissive sources, exposing additional parameters and connecting them to spectral energy band signals.
 
+![Jonquillla3_delayed_truncated_short](https://github.com/jbat100/sonosthesia-vfx-testbed/assets/1318918/d01dbd3f-fd3b-42e6-be02-9fb34ab67329)
 
