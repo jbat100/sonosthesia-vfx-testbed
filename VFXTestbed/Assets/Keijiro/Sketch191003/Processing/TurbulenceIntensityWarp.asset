@@ -15,5 +15,5 @@ MonoBehaviour:
   _settings:
     _bypass: 0
     _db: 0
-    _scale: 1.15
-    _offset: 2.45
+    _scale: 1.43
+    _offset: 1.96

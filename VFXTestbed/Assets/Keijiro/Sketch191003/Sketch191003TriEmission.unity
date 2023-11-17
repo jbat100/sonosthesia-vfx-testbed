@@ -573,7 +573,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.6121815, g: 0.48820755, b: 0.6509434, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -623,7 +623,7 @@ Transform:
   m_GameObject: {fileID: 366975575}
   serializedVersion: 2
   m_LocalRotation: {x: 0.024571251, y: 0.9726394, z: -0.12172454, w: 0.1963467}
-  m_LocalPosition: {x: -0.9975986, y: 1.2496374, z: 2.4018302}
+  m_LocalPosition: {x: -0.9975986, y: 1, z: 2.4018302}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -736,28 +736,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Music
       objectReference: {fileID: 0}
-    - target: {fileID: 827710129896828089, guid: ceaded3538dc548d3b8ba593980163aa,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4096195501175692048, guid: ceaded3538dc548d3b8ba593980163aa,
-        type: 3}
-      propertyPath: m_InitialState
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4869630521369159233, guid: ceaded3538dc548d3b8ba593980163aa,
-        type: 3}
-      propertyPath: _start
-      value: 35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 698265436214014181, guid: ceaded3538dc548d3b8ba593980163aa,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 753580793}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ceaded3538dc548d3b8ba593980163aa, type: 3}
 --- !u!1 &471887913
@@ -840,6 +821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 471887916}
+  _processingFactory: {fileID: 0}
   _targetBlend: 2
 --- !u!114 &471887918
 MonoBehaviour:
@@ -873,6 +855,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 471887918}
+  _processingFactory: {fileID: 0}
   _component: {fileID: 471887916}
   _name: _timeFactor
 --- !u!1 &753580792
@@ -901,12 +884,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753580792}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 794134907}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &753580794
 MonoBehaviour:
@@ -941,12 +924,6 @@ MonoBehaviour:
   _log: 0
   _source: {fileID: 753580794}
   _settings: {fileID: 11400000, guid: 658cceeb91f3b4f8681546e5c2d9a94a, type: 2}
---- !u!4 &794134907 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 698265436214014181, guid: ceaded3538dc548d3b8ba593980163aa,
-    type: 3}
-  m_PrefabInstance: {fileID: 400029170}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1185209276 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3414493371807309434, guid: ceaded3538dc548d3b8ba593980163aa,
@@ -1032,10 +1009,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1265866545}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44712fb1a4f0b42e8bb7f0605a2672ac, type: 3}
+  m_Script: {fileID: 11500000, guid: 90ee9ce03819647ceab36adc581ca40c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 1265866547}
+  _processingFactory: {fileID: 0}
   _visualEffect: {fileID: 317178033}
   _nameID: Emissive Strength 2
 --- !u!1 &1347903361
@@ -1099,10 +1077,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1347903361}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44712fb1a4f0b42e8bb7f0605a2672ac, type: 3}
+  m_Script: {fileID: 11500000, guid: 90ee9ce03819647ceab36adc581ca40c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 1347903363}
+  _processingFactory: {fileID: 0}
   _visualEffect: {fileID: 317178033}
   _nameID: Emissive Strength 3
 --- !u!1 &1458136324
@@ -1166,10 +1145,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1458136324}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44712fb1a4f0b42e8bb7f0605a2672ac, type: 3}
+  m_Script: {fileID: 11500000, guid: 90ee9ce03819647ceab36adc581ca40c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 1458136326}
+  _processingFactory: {fileID: 0}
   _visualEffect: {fileID: 317178033}
   _nameID: Emissive Strength 1
 --- !u!114 &1478994237 stripped
@@ -1193,7 +1173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1623877769}
-  - component: {fileID: 1623877770}
+  - component: {fileID: 1623877772}
   - component: {fileID: 1623877771}
   m_Layer: 0
   m_Name: Turbulence Intensity
@@ -1217,21 +1197,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 317178034}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1623877770
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1623877768}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44712fb1a4f0b42e8bb7f0605a2672ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _source: {fileID: 1623877771}
-  _visualEffect: {fileID: 317178033}
-  _nameID: Turbulence Intensity
 --- !u!114 &1623877771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1251,6 +1216,22 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 45e2388670bed4280a6f2d5558166376, type: 2}
   - {fileID: 11400000, guid: f597e51efe8c7470d9487623957c266e, type: 2}
   _timeScale: 1
+--- !u!114 &1623877772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623877768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90ee9ce03819647ceab36adc581ca40c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _source: {fileID: 1623877771}
+  _processingFactory: {fileID: 0}
+  _visualEffect: {fileID: 317178033}
+  _nameID: Turbulence Intensity
 --- !u!1 &2083749516
 GameObject:
   m_ObjectHideFlags: 0
@@ -1320,7 +1301,7 @@ MonoBehaviour:
   _log: 0
   _source: {fileID: 2083749518}
   _start: 0
-  _offset: 0
+  _offset: 3.17
   _scale: 360
   _range: 360
   _axis: {x: 0, y: 1, z: 0}
@@ -1337,6 +1318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 2083749519}
+  _processingFactory: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1344,5 +1326,6 @@ SceneRoots:
   - {fileID: 366975578}
   - {fileID: 162214726}
   - {fileID: 310634715}
+  - {fileID: 753580793}
   - {fileID: 400029170}
   - {fileID: 471887915}
