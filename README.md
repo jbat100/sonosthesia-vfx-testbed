@@ -10,9 +10,7 @@ Testbed for realtime VFX control using various Sonosthesia [signals](https://git
 - [com.sonosthesia.mapping](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.mapping)
 - [com.sonosthesia.audio](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.audio)
 
-A Unity [timeline](https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html) is used to play audio files through audio sources. The energy in different spectral bins is [extracted]([com.sonosthesia.audio](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.audio)) and fed into [signals](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.signal) which are [mapped](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.mapping) to [targets](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.target) controlling exposed VFX properties.
-
-Audio for these demo scenes was obtained from [epidemicsound](https://www.epidemicsound.com/), namely [jonquilla](https://www.epidemicsound.com/track/s8nGwyBhLq/) and [t1000](https://www.epidemicsound.com/track/0Xkzb9598R/). 
+Audio for these demo scenes was obtained from [epidemicsound](https://www.epidemicsound.com/), namely [jonquilla](https://www.epidemicsound.com/track/s8nGwyBhLq/). 
 
 ## Scenes
 
@@ -20,7 +18,18 @@ NOTE : on the first Unity editor play the audio and the graphics are out of sync
 
 ### Sketch191003TriEmission
 
-This scene extends a VFX sketch by Keijiro, adding multiple emissive sources, exposing additional parameters and connecting them to spectral energy band signals.
+This scene extends a VFX [sketch](https://github.com/keijiro/VfxGraphTestbed/tree/master/Assets/Sketch191003) by Keijiro, adding multiple emissive sources, exposing additional parameters and connecting them to spectral energy band signals.
 
-![Jonquillla3_delayed_truncated_short](https://github.com/jbat100/sonosthesia-vfx-testbed/assets/1318918/d01dbd3f-fd3b-42e6-be02-9fb34ab67329)
+<p align="center">
+  <img src="https://github.com/jbat100/sonosthesia-vfx-testbed/assets/1318918/d01dbd3f-fd3b-42e6-be02-9fb34ab67329" />
+</p>
 
+## Realtime control
+
+### Audio in Unity Timeline
+
+A Unity [timeline](https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html) is used to play audio files through audio sources. The energy in different spectral bins is [extracted]([com.sonosthesia.audio](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.audio)) and fed into [signals](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.signal) which are [mapped](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.mapping) to [targets](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.target) controlling exposed VFX properties.
+
+## License
+
+MIT License applies to Sonosthesia packages. VFX graphs used, modified and extended from external sources inherit the license of their original authors.
